@@ -4,6 +4,9 @@
 */
 function mostrar()
 {
+	var nombre;
 	
+	document. getElementByid	('').value= "Matias";
+
 }
 
