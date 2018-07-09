@@ -3,6 +3,25 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
+	var numeroUno;
+	var numeroDos;
+	var resultado;
+	
+
+	numeroUno=document.getElementById('numeroUno').value;
+	numeroDos=document.getElementById('numeroDos').value;
+	
+	//parseint sirve para transformar en verdaderos los numeros
+	
+
+	numeroUno=parseInt(numeroUno);
+	numeroDos=parseInt(numeroDos);
+	resulto=numeroUno+numeroDos;
+
+
+	alert(numeroUno+numeroDos);
+
+
 
 }
 
